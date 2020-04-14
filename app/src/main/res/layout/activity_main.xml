@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Välkommen!"
         android:layout_marginTop="40dp"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/button"
@@ -32,10 +32,10 @@
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switch_off_on"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:text="På/Av" />
 </LinearLayout>
