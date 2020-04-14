@@ -23,5 +23,16 @@
         android:layout_height="wrap_content"
         android:text="Button" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="291dp" />
+
 
 </LinearLayout>
